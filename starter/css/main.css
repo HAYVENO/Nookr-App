@@ -606,8 +606,10 @@ body {
   position: relative;
   -webkit-transform-origin: top;
           transform-origin: top;
+  border: 16px solid #f9f5f3;
 }
 .recipe__fig::before {
+  border-radius: 0.6rem;
   content: "";
   display: block;
   height: 100%;
@@ -620,6 +622,7 @@ body {
   opacity: 0.6;
 }
 .recipe__img {
+  border-radius: 0.6rem;
   width: 100%;
   display: block;
   height: 100%;

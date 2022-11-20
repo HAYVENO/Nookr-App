@@ -531,6 +531,7 @@ body {
 .recipe__fig {
   height: 32rem;
   transform-origin: top;
+  border: 16px solid #f9f5f3;
   position: relative;
 }
 
@@ -540,6 +541,7 @@ body {
   width: 100%;
   opacity: .6;
   background-image: linear-gradient(to bottom right, #13505b, #0000006a);
+  border-radius: .6rem;
   display: block;
   position: absolute;
   top: 0;
@@ -550,6 +552,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: .6rem;
   display: block;
 }
 

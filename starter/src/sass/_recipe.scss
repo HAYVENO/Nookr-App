@@ -8,8 +8,10 @@
     position: relative;
     // transform: scale(1.04) translateY(-1px);
     transform-origin: top;
+    border: 16px solid $color-grey-light-1;
 
     &::before {
+      border-radius: 0.6rem;
       content: '';
       display: block;
       height: 100%;
@@ -27,6 +29,7 @@
   }
 
   &__img {
+    border-radius: 0.6rem;
     width: 100%;
     display: block;
     height: 100%;
