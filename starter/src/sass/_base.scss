@@ -3,6 +3,8 @@
 // $color-grad-1: #fbdb89;
 // $color-grad-2: #f48982;
 
+//NEWLY DISCOVERED DARK [BLUE] THEME SHADE: 0c1f31
+
 $color-primary: #326273;
 $color-grad-1: #13505b;
 $color-grad-2: #6b5500;
@@ -41,12 +43,12 @@ html {
 }
 
 body {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   line-height: 1.6;
   color: $color-grey-dark-1;
   // background-image: $gradient;
-  background-color: #015042cc;
+  background-color: $color-grey-light-1;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: calc(100vh - 2 * 4vw);
@@ -59,7 +61,7 @@ body {
   background-color: #fff;
   border-radius: 2px;
   overflow: hidden;
-  box-shadow: 0 0.5rem 1rem 0.5rem rgba($color-grey-dark-1, 0.2);
+  box-shadow: 7px 7px 2px 0px transparentize($color-grey-dark-2, 0.5);
 
   display: grid;
   grid-template-rows: 10rem minmax(100rem, auto);

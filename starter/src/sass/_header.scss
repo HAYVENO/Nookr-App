@@ -1,9 +1,10 @@
 .header {
   grid-area: head;
-  background-color: $color-grey-light-1;
+  background-color: inherit;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: solid rgba(0, 0, 0, 0.05);
 
   &__logo {
     height: 12rem;
@@ -20,10 +21,11 @@
   align-items: center;
   padding-left: 3rem;
   transition: all 0.3s;
+  box-shadow: 0 2px 4px 0 rgb(0 0 82 / 15%);
 
   &:focus-within {
     transform: translateY(-2px);
-    box-shadow: 0 0.5rem 1rem rgba($color-grey-dark-1, 0.08);
+    box-shadow: 0 5px 9px 0 rgb(0 0 82 / 10%);
   }
 
   &__field {

@@ -21,10 +21,10 @@ html {
 body {
   color: #615551;
   min-height: calc(100vh - 8vw);
-  background-color: #015042cc;
+  background-color: #f9f5f3;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: Nunito Sans, sans-serif;
+  font-family: Inter, sans-serif;
   font-weight: 400;
   line-height: 1.6;
 }
@@ -40,7 +40,7 @@ body {
   margin: 5rem auto;
   display: grid;
   overflow: hidden;
-  box-shadow: 0 .5rem 1rem .5rem #61555133;
+  box-shadow: 7px 7px 2px #91858180;
 }
 
 @media only screen and (max-width: 78.15em) {
@@ -251,7 +251,8 @@ body {
 }
 
 .header {
-  background-color: #f9f5f3;
+  background-color: inherit;
+  border-bottom: solid #0000000d;
   grid-area: head;
   justify-content: space-between;
   align-items: center;
@@ -272,11 +273,12 @@ body {
   padding-left: 3rem;
   transition: all .3s;
   display: flex;
+  box-shadow: 0 2px 4px #00005226;
 }
 
 .search:focus-within {
   transform: translateY(-2px);
-  box-shadow: 0 .5rem 1rem #61555114;
+  box-shadow: 0 5px 9px #0000521a;
 }
 
 .search__field {
@@ -409,7 +411,7 @@ body {
 .preview__fig {
   height: 5.8rem;
   backface-visibility: hidden;
-  border: 4px solid #13505b;
+  border: 4px solid #f2efee;
   border-radius: 50%;
   flex: 0 0 5.8rem;
   margin-right: 2rem;
@@ -483,6 +485,7 @@ body {
 }
 
 .search-results {
+  background-color: inherit;
   flex-direction: column;
   display: flex;
 }
@@ -525,34 +528,23 @@ body {
 }
 
 .recipe {
-  background-color: #f9f5f3;
+  background-color: inherit;
+  border-left: 1px solid #0000000d;
 }
 
 .recipe__fig {
   height: 32rem;
   transform-origin: top;
+  background-color: #f9f5f3;
   border: 16px solid #f9f5f3;
   position: relative;
-}
-
-.recipe__fig:before {
-  content: "";
-  height: 100%;
-  width: 100%;
-  opacity: .6;
-  background-image: linear-gradient(to bottom right, #13505b, #0000006a);
-  border-radius: .6rem;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 .recipe__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: .6rem;
+  border-radius: 4rem 4rem 0 0;
   display: block;
 }
 
@@ -588,7 +580,7 @@ body {
 
 .recipe__details {
   align-items: center;
-  padding: 7.5rem 8rem 3.5rem;
+  padding: 2rem 4rem;
   display: flex;
 }
 

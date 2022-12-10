@@ -1,5 +1,6 @@
 .recipe {
-  background-color: $color-grey-light-1;
+  background-color: inherit;
+  border-left: 1px solid #0000000d;
 
   ///////////
   // FIGURE
@@ -9,23 +10,24 @@
     // transform: scale(1.04) translateY(-1px);
     transform-origin: top;
     border: 16px solid $color-grey-light-1;
+    background-color: $color-grey-light-1;
 
-    &::before {
-      border-radius: 0.6rem;
-      content: '';
-      display: block;
-      height: 100%;
-      width: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-image: linear-gradient(
-        to right bottom,
-        $color-grad-1,
-        rgba(0, 0, 0, 0.414)
-      );
-      opacity: 0.7;
-    }
+    // &::before {
+    //   border-radius: 0.6rem;
+    //   content: '';
+    //   display: block;
+    //   height: 100%;
+    //   width: 100%;
+    //   position: absolute;
+    //   top: 0;
+    //   left: 0;
+    //   background-image: linear-gradient(
+    //     to right bottom,
+    //     $color-grad-1,
+    //     rgba(0, 0, 0, 0.414)
+    //   );
+    //   opacity: 0.7;
+    // }
   }
 
   &__img {
@@ -34,6 +36,7 @@
     display: block;
     height: 100%;
     object-fit: cover;
+    border-radius: 4rem 4rem 0rem 0rem;
   }
 
   &__title {
@@ -76,7 +79,7 @@
   &__details {
     display: flex;
     align-items: center;
-    padding: 7.5rem 8rem 3.5rem 8rem;
+    padding: 2rem 4rem;
   }
 
   &__info {
