@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "My Forkifier API app",
 	"scripts": {
-		"start": "parcel starter/index.html",
+		"start": "parcel project/index.html",
 		"build": "parcel build index.html"
 	},
 	"author": "HAYVENO",
