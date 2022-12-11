@@ -20,7 +20,7 @@ You can also **save your favorite dishes** to a favorites list for easy access l
 
 Nookr is designed to be user-friendly and easy to navigate. Whether you're in the kitchen or on the go, Nookr is a great resource for finding ingredients and cooking instructions for any meal. Plus, with our easy search by dish name feature and the ability to save your favorites, you can quickly and easily access the recipes that you love.
 
-## Features
+## Features -
 
 -  Search for recipes by dish name
 -  Detailed ingredient and instruction lists for each recipe
