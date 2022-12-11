@@ -114,3 +114,4 @@ Thumbs.db
 !.nvmrc
 !.phpcs.xml.dist
 dist/
+env.js
