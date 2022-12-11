@@ -11,12 +11,12 @@
 		}
 
 		&:hover {
-			background-color: $color-grey-light-1;
+			background-color: $color-grey-light-2;
 			transform: translateY(-2px);
 		}
 
 		&--active {
-			background-color: transparentize($color-primary, 0.8);
+			background-color: transparentize($color-primary, 0.9);
 		}
 	}
 

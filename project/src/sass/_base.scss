@@ -23,56 +23,56 @@ $bp-small: 37.5em; // 600px
 $bp-smallest: 31.25em; //  500px
 
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+	box-sizing: inherit;
 }
 
 html {
-  box-sizing: border-box;
-  font-size: 62.5%;
+	box-sizing: border-box;
+	font-size: 62.5%;
 
-  @media only screen and (max-width: $bp-medium) {
-    font-size: 50%;
-  }
+	@media only screen and (max-width: $bp-medium) {
+		font-size: 50%;
+	}
 }
 
 body {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  line-height: 1.6;
-  color: $color-grey-dark-1;
-  // background-image: $gradient;
-  background-color: $color-grey-light-1;
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: calc(100vh - 2 * 4vw);
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+	line-height: 1.6;
+	color: $color-grey-dark-1;
+	// background-image: $gradient;
+	background-color: $color-grey-light-1;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: calc(100vh - 2 * 4vw);
 }
 
 .container {
-  max-width: 125rem;
-  min-height: 117rem;
-  margin: 5rem auto;
-  background-color: #fff;
-  border-radius: 2px;
-  overflow: hidden;
-  box-shadow: 7px 7px 2px 0px transparentize($color-grey-dark-2, 0.5);
+	max-width: 125rem;
+	min-height: 117rem;
+	margin: 5rem auto;
+	background-color: #fff;
+	border-radius: 2px;
+	overflow: hidden;
+	box-shadow: 11px 15px 2px transparentize($color-grey-dark-2, 0.5);
 
-  display: grid;
-  grid-template-rows: 10rem minmax(100rem, auto);
-  grid-template-columns: 1fr 3fr;
-  grid-template-areas:
-    'head head'
-    'list recipe';
+	display: grid;
+	grid-template-rows: 10rem minmax(100rem, auto);
+	grid-template-columns: 1fr 3fr;
+	grid-template-areas:
+		"head head"
+		"list recipe";
 
-  @media only screen and (max-width: $bp-large) {
-    max-width: 100%;
-    margin: 0;
-    border-radius: 0;
-  }
+	@media only screen and (max-width: $bp-large) {
+		max-width: 100%;
+		margin: 0;
+		border-radius: 0;
+	}
 }

@@ -1,9 +1,9 @@
 import "regenerator-runtime/runtime"; //Polyfills async functions
 import { API_URL, RES_PER_PAGE, DEFAULT_MEAL } from "./config";
 import { getJSON, sendJSON } from "./helper";
-// import { apiKEY } from "../env";
+import { passKey } from "../credentials";
 
-const KEY = process.env.KEY || apiKEY;
+const KEY = passKey;
 
 export const state = {
 	bookmarks: [],
