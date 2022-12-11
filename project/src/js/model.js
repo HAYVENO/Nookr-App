@@ -1,7 +1,7 @@
 import "regenerator-runtime/runtime"; //Polyfills async functions
 import { API_URL, RES_PER_PAGE, DEFAULT_MEAL } from "./config";
 import { getJSON, sendJSON } from "./helper";
-import { apiKEY } from "../env";
+// import { apiKEY } from "../env";
 
 const KEY = process.env.KEY || apiKEY;
 
