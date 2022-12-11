@@ -345,9 +345,9 @@ body {
 .search__field::-moz-placeholder {
 	color: #d3c7c3;
 }
-.search__field:-ms-input-placeholder {
+/* .search__field:-ms-input-placeholder {
 	color: #d3c7c3;
-}
+} */
 .search__field::-ms-input-placeholder {
 	color: #d3c7c3;
 }
