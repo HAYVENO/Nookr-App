@@ -22,5 +22,4 @@ Nookr is designed to be user-friendly and easy to navigate. Whether you're in th
 
 Go from **Noob-cook** to **King-Cook** in minutes with **Nookr - your personal kitchen companion.**
 
-
-
+>DISCLAIMER: Nookr is NOT meant for commercial use.
