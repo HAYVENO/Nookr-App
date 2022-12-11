@@ -4,7 +4,7 @@
 	"description": "My Forkifier API app",
 	"scripts": {
 		"start": "parcel project/index.html",
-		"build": "parcel build index.html"
+		"build": "parcel build project/index.html"
 	},
 	"author": "HAYVENO",
 	"license": "ISC",
