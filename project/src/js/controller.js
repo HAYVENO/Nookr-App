@@ -88,7 +88,7 @@ const controlAddBookmark = function () {
 	else model.deleteBookmark(model.state.recipe.id);
 	recipeView.render(model.state.recipe);
 	bookmarksView.render(model.state.bookmarks);
-	console.log(model.state.bookmarks);
+	// console.log(model.state.bookmarks);
 };
 
 const controlBookmarks = function () {
@@ -119,7 +119,7 @@ const controlUploadRecipe = async function (newRecipe) {
 		}, 2000);
 		window.location.reload();
 	} catch (err) {
-		console.log(err);
+		console.error(err);
 		addRecipeView.renderError(err.message);
 		setTimeout(function () {
 			window.location.reload();
@@ -140,4 +140,4 @@ const init = function () {
 };
 init();
 ///////////////////////////////////////
-console.log("Wiz");
+console.log("HAYVEN DID. [YIII] ");

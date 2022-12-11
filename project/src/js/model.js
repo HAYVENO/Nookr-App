@@ -1,9 +1,7 @@
 import "regenerator-runtime/runtime"; //Polyfills async functions
 import { API_URL, RES_PER_PAGE, DEFAULT_MEAL } from "./config";
 import { getJSON, sendJSON } from "./helper";
-import { passKey } from "../credentials";
-
-const KEY = passKey;
+import { KEY } from "../credentials";
 
 export const state = {
 	bookmarks: [],
@@ -32,15 +30,15 @@ export const loadRecipe = async function (id) {
 			title: recipe.title,
 			...(recipe.key && { key: recipe.key }),
 		};
-		console.log(state.recipe);
+		// console.log(state.recipe);
 	} catch (err) {
 		throw err;
 	}
 };
 
 export const loadSearchResult = async function (query) {
-	console.log("the page", state.search.page);
-	console.log("the query", state.search.query);
+	// console.log("the page", state.search.page);
+	// console.log("the query", state.search.query);
 	state.search.query = query;
 	//restore page number to page one
 	state.search.page = 1;
@@ -72,7 +70,7 @@ export const updateServings = function (newServings) {
 	});
 	state.recipe.servings = newServings;
 
-	console.log(state.recipe.ingredients);
+	// console.log(state.recipe.ingredients);
 };
 
 const localStoreBookmarks = function () {
@@ -116,7 +114,7 @@ export const uploadRecipe = async function (newRecipe) {
 
 				return { quantity: quantity ? +quantity : null, unit, description };
 			});
-		console.log(newRecipe);
+		// console.log(newRecipe);
 		const recipe = {
 			title: newRecipe.title,
 			source_url: newRecipe.sourceUrl,
@@ -140,7 +138,7 @@ export const uploadRecipe = async function (newRecipe) {
 			title: sentRecipe.title,
 			...(recipe.key && { key: recipe.key }),
 		};
-		console.log("models recipe", state.recipe);
+		// console.log("models recipe", state.recipe);
 	} catch (err) {
 		console.error(err);
 		throw err;
