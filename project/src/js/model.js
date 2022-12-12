@@ -1,3 +1,4 @@
+"use strict";
 import "regenerator-runtime/runtime"; //Polyfills async functions
 import { API_URL, RES_PER_PAGE, DEFAULT_MEAL } from "./config";
 import { getJSON, sendJSON } from "./helper";
@@ -16,7 +17,7 @@ export const state = {
 
 export const loadRecipe = async function (id) {
 	try {
-		await getJSON(`${API_URL}${id}`);
+		const data = await getJSON(`${API_URL}${id}`);
 		const { recipe } = data.data;
 
 		state.recipe = {
@@ -37,14 +38,14 @@ export const loadRecipe = async function (id) {
 };
 
 export const loadSearchResult = async function (query) {
-	console.log("the page", state.search.page);
-	console.log("the query", state.search.query);
+	// console.log("the page", state.search.page);
+	// console.log("the query", state.search.query);
 	state.search.query = query;
 	//restore page number to page one
 	state.search.page = 1;
 
 	// Get JSON Data and map it into results array
-	await getJSON(`${API_URL}?search=${query}&key=${KEY}`);
+	const data = await getJSON(`${API_URL}?search=${query}&key=${KEY}`);
 	state.search.results = data.data.recipes.map((rec) => {
 		return {
 			id: rec.id,
@@ -125,7 +126,8 @@ export const uploadRecipe = async function (newRecipe) {
 			ingredients,
 		};
 
-		const data = await sendJSON(`${API_URL}?key=${KEY}`, recipe);
+		let data = await sendJSON(`${API_URL}?key=${KEY}`, recipe);
+		console.log(data);
 		const sentRecipe = data.data.recipe;
 		state.recipe = {
 			cookingTime: sentRecipe.cooking_time,
