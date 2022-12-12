@@ -37,8 +37,8 @@ export const loadRecipe = async function (id) {
 };
 
 export const loadSearchResult = async function (query) {
-	// console.log("the page", state.search.page);
-	// console.log("the query", state.search.query);
+	console.log("the page", state.search.page);
+	console.log("the query", state.search.query);
 	state.search.query = query;
 	//restore page number to page one
 	state.search.page = 1;

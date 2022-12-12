@@ -13,10 +13,10 @@ export const getJSON = async function (url) {
 	try {
 		console.log(url);
 		const res = await Promise.race([timeout(TIMEOUT_SEC), fetch(url)]);
-		if (!res.ok) return console.log(res);
+		if (!res.ok) console.log(res);
 		data = await res.json();
 		console.log({ data });
-		if (data.status === "fail") return console.log(data);
+		if (data.status === "fail") console.log(data);
 		return data;
 	} catch (err) {
 		console.error(err);
@@ -24,25 +24,25 @@ export const getJSON = async function (url) {
 	}
 };
 
-export const sendJSON = async function (url, uploadData) {
-	try {
-		const fetchPro = fetch(url, {
-			method: "POST",
-			headers: {
-				"Content-Type": "application/json",
-			},
-			body: JSON.stringify(uploadData),
-		});
-		const res = await Promise.race([fetchPro, timeout(TIMEOUT_SEC)]);
-		const data = await res.json();
-		if (!res.ok) throw new Error(`${data.message} (${res.status})`);
-		if (!data) console.log("no data");
-		return data;
-	} catch (err) {
-		console.error(err);
-		// throw err;
-	}
-};
+// export const sendJSON = async function (url, uploadData) {
+// 	try {
+// 		const fetchPro = fetch(url, {
+// 			method: "POST",
+// 			headers: {
+// 				"Content-Type": "application/json",
+// 			},
+// 			body: JSON.stringify(uploadData),
+// 		});
+// 		const res = await Promise.race([fetchPro, timeout(TIMEOUT_SEC)]);
+// 		const data = await res.json();
+// 		if (!res.ok) throw new Error(`${data.message} (${res.status})`);
+// 		if (!data) console.log("no data");
+// 		return data;
+// 	} catch (err) {
+// 		console.error(err);
+// 		// throw err;
+// 	}
+// };
 
 // export const sendJSON = async function (url, uploadData) {
 //   try {
