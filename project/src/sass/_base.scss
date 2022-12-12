@@ -52,6 +52,11 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height: calc(100vh - 2 * 4vw);
+
+	//TRYING OUT THE FONT-SMOOTH FEATURE
+	font-smooth: antialiased;
+	-moz-osx-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
 }
 
 .container {

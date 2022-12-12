@@ -30,6 +30,9 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: calc(100vh - 8vw);
+  font-smooth: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
 }
 
 .container {
@@ -731,6 +734,7 @@ body {
           align-items: center;
 }
 .recipe__ingredient-list {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2.5rem 3rem;

@@ -1,26 +1,24 @@
-import { state } from '../model';
-import View from './view';
+import { state } from "../model";
+import View from "./view";
 
 class bookmarksView extends View {
-  _type = 'bookmarksView';
-  _parentElement = document.querySelector('.bookmarks__list');
-  _errorMessage =
-    'You have removed all your bookmarked recipes. Find a nice recipe and bookmark it :)';
+	_type = "bookmarksView";
+	_parentElement = document.querySelector(".bookmarks__list");
+	_errorMessage =
+		"You have removed all your favorite recipes. Find a nice recipe and bookmark it :)";
 
-  addHandlerRender(handler) {
-    window.onload = function () {
-      handler();
-    };
-  }
+	addHandlerRender(handler) {
+		window.onload = function () {
+			handler();
+		};
+	}
 
-  _generateMarkup(results) {
-    return this._data
-      .map(result => this._generateMarkupPreview(result))
-      .join(' ');
-  }
+	_generateMarkup(results) {
+		return this._data.map((result) => this._generateMarkupPreview(result)).join(" ");
+	}
 
-  _generateMarkupPreview(result) {
-    return `    
+	_generateMarkupPreview(result) {
+		return `    
          <li class="preview">
             <a class="preview__link preview__link--active" href="#${result.id}">
               <figure class="preview__fig">
@@ -34,7 +32,7 @@ class bookmarksView extends View {
           </li> 
   
   `;
-  }
+	}
 }
 
 export default new bookmarksView();
