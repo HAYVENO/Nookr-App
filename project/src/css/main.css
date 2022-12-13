@@ -498,8 +498,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#13505b), to(#6b5500));
-  background-image: linear-gradient(to right bottom, #13505b, #6b5500);
+  background-color: rgba(114, 22, 1, 0.698);
   opacity: 0.4;
 }
 .preview__fig img {

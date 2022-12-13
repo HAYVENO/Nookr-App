@@ -53,7 +53,7 @@ class recipeView extends View {
       <use href="${icons}#icon-users"></use>
       </svg>
       <span class="recipe__info-data recipe__info-data--people">${this._data.servings}</span>
-      <span class="recipe__info-text">servings</span>
+      <span class="recipe__info-text">${this._data.servings > 1 ? "persons" : "person"}</span>
       
       <div class="recipe__info-buttons">
       <button data-update-to="${+this._data.servings - 1}" class="btn--tiny btn--increase-servings">
@@ -82,7 +82,7 @@ class recipeView extends View {
       </div>
       
       <div class="recipe__ingredients">
-      <h2 class="heading--2">Recipe ingredients</h2>
+      <h2 class="heading--2">Meal ingredients</h2>
       <ul class="recipe__ingredient-list">
 
       ${this._data.ingredients
@@ -112,7 +112,7 @@ class recipeView extends View {
       </div>
       
       <div class="recipe__directions">
-      <h2 class="heading--2">GET STEP-BY-STEP INSTRUCTION</h2>
+      <h2 class="heading--2">GET STEP-BY-STEP INSTRUCTIONS</h2>
       <p class="recipe__directions-text">
       This recipe was carefully designed and tested by
       <span class="recipe__publisher">${this._data.publisher}</span>. Please check out
