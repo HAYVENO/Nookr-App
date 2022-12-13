@@ -219,16 +219,61 @@ body {
   color: #918581;
 }
 
-.spinner {
-  margin: 5rem auto;
-  text-align: center;
+@-webkit-keyframes spinner {
+  0%, 100% {
+    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5);
+            animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5);
+  }
+  0% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  50% {
+    -webkit-transform: rotateY(1800deg);
+            transform: rotateY(1800deg);
+    -webkit-animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);
+            animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);
+  }
+  100% {
+    -webkit-transform: rotateY(3600deg);
+            transform: rotateY(3600deg);
+  }
 }
-.spinner svg {
-  height: 6rem;
-  width: 6rem;
-  fill: #326273;
-  -webkit-animation: rotate 2s infinite linear;
-          animation: rotate 2s infinite linear;
+
+@keyframes spinner {
+  0%, 100% {
+    -webkit-animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5);
+            animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5);
+  }
+  0% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  50% {
+    -webkit-transform: rotateY(1800deg);
+            transform: rotateY(1800deg);
+    -webkit-animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);
+            animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);
+  }
+  100% {
+    -webkit-transform: rotateY(3600deg);
+            transform: rotateY(3600deg);
+  }
+}
+.spinner {
+  display: block;
+  -webkit-transform: translateZ(1px);
+          transform: translateZ(1px);
+}
+.spinner > div {
+  display: block;
+  height: 5rem;
+  width: 5rem;
+  margin: 8rem auto;
+  border-radius: 50%;
+  background: #326273;
+  -webkit-animation: spinner 5s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+          animation: spinner 5s cubic-bezier(0, 0.2, 0.8, 1) infinite;
 }
 
 @-webkit-keyframes rotate {

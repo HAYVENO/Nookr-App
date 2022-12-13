@@ -170,15 +170,34 @@
 	color: $color-grey-dark-2;
 }
 
-.spinner {
-	margin: 5rem auto;
-	text-align: center;
+@keyframes spinner {
+	0%,
+	100% {
+		animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5);
+	}
+	0% {
+		transform: rotateY(0deg);
+	}
+	50% {
+		transform: rotateY(1800deg);
+		animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);
+	}
+	100% {
+		transform: rotateY(3600deg);
+	}
+}
 
-	svg {
-		height: 6rem;
-		width: 6rem;
-		fill: $color-primary;
-		animation: rotate 2s infinite linear;
+.spinner {
+	display: block;
+	transform: translateZ(1px);
+	> div {
+		display: block;
+		height: 5rem;
+		width: 5rem;
+		margin: 8rem auto;
+		border-radius: 50%;
+		background: $color-primary;
+		animation: spinner 5s cubic-bezier(0, 0.2, 0.8, 1) infinite;
 	}
 }
 
