@@ -194,9 +194,9 @@
 		display: block;
 		height: 5rem;
 		width: 5rem;
-		margin: 8rem auto;
+		margin: 15rem auto;
 		border-radius: 50%;
-		background: $color-primary;
+		background: transparentize($color-primary, 0.5);
 		animation: spinner 5s cubic-bezier(0, 0.2, 0.8, 1) infinite;
 	}
 }

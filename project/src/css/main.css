@@ -269,9 +269,9 @@ body {
   display: block;
   height: 5rem;
   width: 5rem;
-  margin: 8rem auto;
+  margin: 15rem auto;
   border-radius: 50%;
-  background: #326273;
+  background: rgba(50, 98, 115, 0.5);
   -webkit-animation: spinner 5s cubic-bezier(0, 0.2, 0.8, 1) infinite;
           animation: spinner 5s cubic-bezier(0, 0.2, 0.8, 1) infinite;
 }
