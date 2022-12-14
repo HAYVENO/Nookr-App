@@ -1,7 +1,7 @@
 {
-	"name": "forkify",
-	"version": "1.0.0",
-	"description": "My Forkifier API app",
+	"name": "nookr",
+	"version": "1.0.1",
+	"description": "My Nookr app",
 	"scripts": {
 		"start": "parcel project/index.html",
 		"build": "parcel build project/index.html"
@@ -16,6 +16,7 @@
 		"util": "^0.12.4"
 	},
 	"dependencies": {
+		"fracty": "^1.0.11",
 		"regenerator-runtime": "^0.13.9",
 		"sass": "^1.54.5"
 	}

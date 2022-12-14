@@ -1,5 +1,5 @@
 import icons from "url:../../img/icons.svg";
-// import { Fraction } from "fractional";
+import fracty from "fracty";
 import View from "./view";
 
 class recipeView extends View {
@@ -94,11 +94,7 @@ class recipeView extends View {
                 <use href="${icons}#icon-spoon"></use>
               </svg>
               <div class="recipe__quantity">${
-						ingredient.quantity
-							? Number.isInteger(ingredient.quantity)
-								? ingredient.quantity
-								: ingredient.quantity.toFixed(1)
-							: ""
+						ingredient.quantity ? fracty(parseFloat(ingredient.quantity)) : ""
 					}</div>
               <div class="recipe__description">
                 <span class="recipe__unit">${ingredient.unit}</span>
@@ -114,10 +110,9 @@ class recipeView extends View {
       
       <div class="recipe__directions">
       <h2 class="heading--2">GET STEP-BY-STEP INSTRUCTIONS</h2>
-      <p class="recipe__directions-text">
-      This recipe was carefully designed and tested by
-      <span class="recipe__publisher">${this._data.publisher}</span>. Please check out
-      directions at their website.
+      <p class="recipe__directions-text">The <span class="recipe__publisher">${
+			this._data.publisher
+		}</span> has designed and tested this recipe to ensure its success. To get full details on the recipes, visit their website.
       </p>
       <a
       class="btn--small recipe__btn"
