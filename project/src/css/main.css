@@ -769,7 +769,7 @@ body {
   padding: 5rem 8rem;
   font-size: 1.6rem;
   line-height: 1.4;
-  background-color: #f2efee;
+  background-color: rgba(19, 80, 91, 0.09);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
