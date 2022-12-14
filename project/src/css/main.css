@@ -672,7 +672,7 @@ body {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 4rem 4rem 0rem 0rem;
+  border-radius: 1rem;
 }
 .recipe__title {
   position: absolute;
