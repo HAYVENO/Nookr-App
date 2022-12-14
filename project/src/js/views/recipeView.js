@@ -43,15 +43,15 @@ class recipeView extends View {
       <div class="recipe__details">
       <div class="recipe__info">
       <svg class="recipe__info-icon">
-      <use href="${icons}#icon-clock"></use>
+      <use href="${icons}#icon-stop-watch"></use>
       </svg>
       <span class="recipe__info-dat/* A link to the source of the recipe. */
       a recipe__info-data--minutes">${this._data.cookingTime}</span>
-      <span class="recipe__info-text">minutes</span>
+      <span class="recipe__info-text">mins</span>
       </div>
       <div class="recipe__info">
       <svg class="recipe__info-icon">
-      <use href="${icons}#icon-users"></use>
+      <use href="${icons}#icon-group"></use>
       </svg>
       <span class="recipe__info-data recipe__info-data--people">${this._data.servings}</span>
       <span class="recipe__info-text">${this._data.servings > 1 ? "persons" : "person"}</span>
@@ -59,12 +59,12 @@ class recipeView extends View {
       <div class="recipe__info-buttons">
       <button data-update-to="${+this._data.servings - 1}" class="btn--tiny btn--increase-servings">
       <svg>
-      <use href="${icons}#icon-minus-circle"></use>
+      <use href="${icons}#icon-user-minus"></use>
       </svg>
       </button>
       <button data-update-to="${+this._data.servings + 1}" class="btn--tiny btn--increase-servings">
       <svg>
-      <use href="${icons}#icon-plus-circle"></use>
+      <use href="${icons}#icon-user-plus"></use>
       </svg>
       </button>
       </div>
@@ -126,7 +126,7 @@ class recipeView extends View {
       >
       <span>GET THE STEPS</span>
       <svg class="search__icon">
-      <use href="${icons}#icon-arrow-right"></use>
+      <use href="${icons}#icon-in-alt"></use>
       </svg>
       </a>
       </div>`;

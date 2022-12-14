@@ -13,7 +13,7 @@
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-size: 62.5%;
+  font-size: 64%;
 }
 @media only screen and (max-width: 61.25em) {
   html {
@@ -22,7 +22,7 @@ html {
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Comic Neue", cursive;
   font-weight: 400;
   line-height: 1.6;
   color: #615551;
@@ -683,7 +683,7 @@ body {
   color: #fff;
   font-weight: 700;
   font-size: 3.25rem;
-  text-transform: uppercase;
+  text-transform: capitalize;
   width: 50%;
   line-height: 1.95;
   text-align: center;
@@ -714,7 +714,7 @@ body {
 }
 .recipe__info {
   font-size: 1.65rem;
-  text-transform: uppercase;
+  text-transform: capitalize;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -739,9 +739,13 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 2rem;
   margin-left: 1.6rem;
   -webkit-transform: translateY(-1px);
           transform: translateY(-1px);
+  border: 1px solid rgba(50, 98, 115, 0.4);
+  padding: 0.7rem 1.4rem;
+  border-radius: 2rem;
 }
 .recipe__user-generated {
   background-color: #eeeae8;
@@ -831,6 +835,9 @@ body {
 }
 .recipe__publisher {
   font-weight: 700;
+}
+.recipe__btn {
+  gap: 1rem;
 }
 
 .add-recipe-window {

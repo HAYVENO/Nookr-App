@@ -35,7 +35,8 @@ $bp-smallest: 31.25em; //  500px
 
 html {
 	box-sizing: border-box;
-	font-size: 62.5%;
+	// font-size: 62.5%;
+	font-size: 64%;
 
 	@media only screen and (max-width: $bp-medium) {
 		font-size: 50%;
@@ -43,7 +44,7 @@ html {
 }
 
 body {
-	font-family: "Inter", sans-serif;
+	font-family: "Comic Neue", cursive;
 	font-weight: 400;
 	line-height: 1.6;
 	color: $color-grey-dark-1;

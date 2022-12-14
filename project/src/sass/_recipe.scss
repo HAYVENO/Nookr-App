@@ -47,7 +47,7 @@
 		color: #fff;
 		font-weight: 700;
 		font-size: 3.25rem;
-		text-transform: uppercase;
+		text-transform: capitalize;
 		width: 50%;
 		line-height: 1.95;
 		text-align: center;
@@ -84,7 +84,7 @@
 
 	&__info {
 		font-size: 1.65rem;
-		text-transform: uppercase;
+		text-transform: capitalize;
 		display: flex;
 		align-items: center;
 
@@ -107,8 +107,12 @@
 
 	&__info-buttons {
 		display: flex;
+		gap: 2rem;
 		margin-left: 1.6rem;
 		transform: translateY(-1px);
+		border: 1px solid rgba($color-primary, 0.4);
+		padding: 0.7rem 1.4rem;
+		border-radius: 2rem;
 	}
 
 	&__user-generated {
@@ -188,5 +192,9 @@
 
 	&__publisher {
 		font-weight: 700;
+	}
+
+	&__btn {
+		gap: 1rem;
 	}
 }
