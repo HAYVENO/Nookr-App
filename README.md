@@ -31,4 +31,4 @@ Plus, with Nookr's **Search by dish name** feature and the ability to save your 
 
 Go from **Noob-cook** to **King-Cook** in minutes with **Nookr - your personal kitchen companion.**
 
-> DISCLAIMER: Nookr is NOT meant for commercial use.
+> DISCLAIMER: Nookr is NOT a commercial app.
