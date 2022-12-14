@@ -30,6 +30,6 @@ Plus, with Nookr's **Search by dish name** feature and the ability to **save you
 -  Save your favorite recipes to a favorites list for easy access
 -  Easy navigation and user-friendly design
 
-Go from **Noob-cook** to **King-Cook** in minutes with **Nookr - your personal kitchen companion.**
+Go from **Noob-cook** to **King-Chef** in minutes with **Nookr - your personal kitchen companion.**
 
 > DISCLAIMER: Nookr is NOT a commercial app.
