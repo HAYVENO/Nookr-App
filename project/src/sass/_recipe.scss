@@ -145,10 +145,15 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+
+		margin: 0 2rem;
+		border-radius: 1.4rem;
 	}
 
 	&__ingredient-list {
-		font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+		margin-top: 1rem;
+		color: black;
+		// font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 2.5rem 3rem;
