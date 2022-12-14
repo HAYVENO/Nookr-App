@@ -305,11 +305,15 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
 }
 .message svg,
 .error svg {
-  height: 3rem;
-  width: 3rem;
+  color: #326273;
+  height: 4rem;
+  width: 4rem;
   fill: #326273;
   -webkit-transform: translateY(-0.3rem);
           transform: translateY(-0.3rem);

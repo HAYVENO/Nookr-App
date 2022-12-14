@@ -218,10 +218,12 @@
 	padding: 5rem 4rem;
 
 	display: flex;
+	align-items: end;
 
 	svg {
-		height: 3rem;
-		width: 3rem;
+		color: #326273;
+		height: 4rem;
+		width: 4rem;
 		fill: $color-primary;
 		transform: translateY(-0.3rem);
 	}
