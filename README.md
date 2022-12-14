@@ -1,6 +1,6 @@
 # Nookr-App
 
-![Nookr view](https://imgur.com/x6zhL46)
+![Nookr view](https://res.cloudinary.com/detye5zx5/image/upload/v1671020361/Nookr-view-optimized_x6fmje.webp)
 Let Nookr take the guesswork out of cooking.
 
 ## What is Nookr?
