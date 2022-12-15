@@ -130,11 +130,11 @@ const init = function () {
 	searchView.addSearchHandler(controlSearch);
 	paginationView.addHandlerPage(controlPagination);
 	recipeView.addHandlerServings(controlServings);
-	recipeView.addHandlerAddBookmark(controlAddBookmark);
-	addRecipeView.addHandlerShowUpload();
-	addRecipeView.addHandlerHideUpload();
-	addRecipeView.addHandlerUpload(controlUploadRecipe);
 	bookmarksView.addHandlerRender(controlBookmarks);
+	recipeView.addHandlerAddBookmark(controlAddBookmark);
+	// addRecipeView.addHandlerShowUpload();
+	// addRecipeView.addHandlerHideUpload();
+	// addRecipeView.addHandlerUpload(controlUploadRecipe);
 };
 init();
 ///////////////////////////////////////
