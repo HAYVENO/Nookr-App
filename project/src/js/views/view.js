@@ -13,6 +13,25 @@ export default class View {
 		this._parentElement.insertAdjacentHTML("afterbegin", markup);
 	}
 
+	checkImage() {
+		//If image does not load, do not display it.
+		// console.log(this._parentEl);
+		if (this._parentEl) {
+			const previewImages = document.querySelectorAll(".preview__fig.listX img");
+			previewImages.forEach((image) => {
+				image.onerror = function () {
+					image.style.display = "none";
+				};
+			});
+			return;
+		}
+		const recipeImage = document.querySelector(".recipe__img");
+		console.log(recipeImage);
+		recipeImage.onerror = function () {
+			recipeImage.style.display = "none";
+		};
+	}
+
 	_clear() {
 		this._parentElement.innerHTML = "";
 	}

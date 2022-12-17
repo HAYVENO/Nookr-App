@@ -4,8 +4,9 @@ import searchView from "./views/searchView.js";
 import paginationView from "./views/paginationView.js";
 import bookmarksView from "./views/bookmarksView.js";
 import addRecipeView from "./views/addRecipeView.js";
+import View from "./views/view.js";
 
-const recipeContainer = document.querySelector(".recipe");
+// const recipeContainer = document.querySelector(".recipe");
 // let id = '5ed6604591c37cdc054bc886';
 
 // RECIPE CONTROLLER CONTROLLER
@@ -30,6 +31,10 @@ const controlRecipe = async function () {
 			model.state.recipe.bookmarked = true;
 		//render recipe
 		recipeView.render(recipe);
+
+		// Check image: If there is an error in image load, do not display it
+		recipeView.checkImage();
+		searchView.checkImage();
 	} catch (err) {
 		recipeView.renderError();
 		console.error(err);
@@ -53,6 +58,8 @@ const controlSearch = async function () {
 
 		//Render search results - per page
 		searchView.render(resultsPerPage);
+
+		searchView.checkImage();
 
 		//render pagination
 		paginationView.render(model.state.search);

@@ -108,6 +108,7 @@ body {
 }
 
 .btn--inline {
+  font-family: "Comic Neue", cursive;
   color: #326273;
   font-size: 1.3rem;
   font-weight: 600;
