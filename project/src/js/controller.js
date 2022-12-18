@@ -60,6 +60,7 @@ const controlSearch = async function () {
 		searchView.render(resultsPerPage);
 
 		searchView.checkImage();
+		recipeView.checkImage();
 
 		//render pagination
 		paginationView.render(model.state.search);
