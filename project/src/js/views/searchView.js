@@ -1,4 +1,4 @@
-"use strict";
+("use strict");
 import View from "./view";
 import icons from "url:../../img/icons.svg";
 import { async } from "regenerator-runtime";
