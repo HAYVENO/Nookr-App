@@ -29,7 +29,7 @@ Plus, with Nookr's **Search by dish name** feature and the ability to **save you
 -  Detailed ingredient and instruction lists for each recipe
 -  Save your favorite recipes to a favorites list for easy access
 -  Easy navigation and user-friendly design
--  Available on Desktop and Tablets
+-  Available on **Desktop and Tablets**
 
 Go from **Noob-cook** to **King-Chef** in minutes with **Nookr - your personal kitchen companion.**
 
