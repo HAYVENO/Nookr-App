@@ -57,12 +57,16 @@ class recipeView extends View {
       <span class="recipe__info-text">${this._data.servings > 1 ? "persons" : "person"}</span>
       
       <div class="recipe__info-buttons">
-      <button data-update-to="${+this._data.servings - 1}" class="btn--tiny btn--increase-servings">
+      <button title='Remove person' data-update-to="${
+			+this._data.servings - 1
+		}" class="btn--tiny btn--increase-servings">
       <svg>
       <use href="${icons}#icon-user-minus"></use>
       </svg>
       </button>
-      <button data-update-to="${+this._data.servings + 1}" class="btn--tiny btn--increase-servings">
+      <button title='Add person' data-update-to="${
+			+this._data.servings + 1
+		}" class="btn--tiny btn--increase-servings">
       <svg>
       <use href="${icons}#icon-user-plus"></use>
       </svg>
@@ -75,7 +79,7 @@ class recipeView extends View {
       <use href="${icons}#icon-user"></use>
       </svg>
       </div>
-      <button class="btn--round btn--bookmark">
+      <button title='Add to Favorites' class="btn--round btn--bookmark">
       <svg class="">
       <use href="${icons}${this._data.bookmarked ? "#icon-heart1" : "#icon-heart"}"></use>
       </svg>
