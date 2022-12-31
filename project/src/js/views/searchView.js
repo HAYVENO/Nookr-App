@@ -8,9 +8,10 @@ class searchView extends View {
 	_parentEl = document.querySelector(".search");
 	_parentElement = document.querySelector(".results");
 	_errorMessage = "There were no results for your search";
+	_searchField = this._parentEl.querySelector(".search__field");
 
 	getQuery() {
-		return this._parentEl.querySelector(".search__field").value;
+		return this._searchField.value;
 	}
 
 	addSearchHandler(handler) {
@@ -22,6 +23,7 @@ class searchView extends View {
 		//on search submit, use query
 		this._parentEl.addEventListener("submit", async (e) => {
 			e.preventDefault();
+			this._searchField.blur();
 			await handler();
 		});
 	}
