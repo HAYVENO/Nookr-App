@@ -1,147 +1,147 @@
 .header {
-  grid-area: head;
-  background-color: inherit;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: solid rgba(0, 0, 0, 0.05);
+	grid-area: head;
+	background-color: inherit;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: solid rgba(0, 0, 0, 0.05);
 
-  &__logo {
-    height: 12rem;
-    margin-left: 0;
-    display: block;
-  }
+	&__logo {
+		height: 12rem;
+		margin-left: 0;
+		display: block;
+	}
 }
 
 .search {
-  flex: 0 0 45%;
-  background-color: #fff;
-  border-radius: 1rem;
-  display: flex;
-  align-items: center;
-  padding-left: 3rem;
-  transition: all 0.3s;
-  box-shadow: 0 2px 4px 0 rgb(0 0 82 / 15%);
+	flex: 0 0 45%;
+	background-color: #fff;
+	border-radius: 1rem;
+	display: flex;
+	align-items: center;
+	padding-left: 3rem;
+	transition: all 0.3s;
+	box-shadow: 0 2px 4px 0 rgb(0 0 82 / 15%);
 
-  &:focus-within {
-    transform: translateY(-2px);
-    box-shadow: 0 5px 9px 0 rgb(0 0 82 / 10%);
-  }
+	&:focus-within {
+		transform: translateY(-2px);
+		box-shadow: 0 5px 9px 0 rgb(0 0 82 / 10%);
+	}
 
-  &__field {
-    border: none;
-    background: none;
-    font-family: inherit;
-    color: inherit;
-    font-size: 1.5rem;
-    width: 100%;
+	&__field {
+		border: none;
+		background: none;
+		font-family: inherit;
+		color: inherit;
+		font-size: 1.5rem;
+		width: 100%;
 
-    &:focus {
-      outline: none;
-    }
+		&:focus {
+			outline: none;
+		}
 
-    &::placeholder {
-      color: $color-grey-light-3;
-    }
+		&::placeholder {
+			color: $color-grey-light-3;
+		}
 
-    @media only screen and (max-width: $bp-medium) {
-      // width: auto;
+		@media only screen and (max-width: $bp-medium) {
+			// width: auto;
 
-      &::placeholder {
-        color: white;
-      }
-    }
-  }
+			&::placeholder {
+				color: white;
+			}
+		}
+	}
 
-  &__btn {
-    font-weight: 300;
-    font-family: inherit;
-  }
+	&__btn {
+		font-weight: 300;
+		font-family: inherit;
+	}
 }
 
 .nav {
-  align-self: stretch;
-  margin-right: 2.5rem;
+	align-self: stretch;
+	margin-right: 2.5rem;
 
-  &__list {
-    list-style: none;
-    display: flex;
-    height: 100%;
-  }
+	&__list {
+		list-style: none;
+		display: flex;
+		height: 100%;
+	}
 
-  &__item {
-    position: relative;
-  }
+	&__item {
+		position: relative;
+	}
 
-  &__btn {
-    height: 100%;
-    font-family: inherit;
-    color: inherit;
-    font-size: 1.4rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0 1.5rem;
-    transition: all 0.3s;
+	&__btn {
+		height: 100%;
+		font-family: inherit;
+		color: inherit;
+		font-size: 1.4rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		background: none;
+		border: none;
+		cursor: pointer;
+		padding: 0 1.5rem;
+		transition: all 0.3s;
 
-    display: flex;
-    align-items: center;
+		display: flex;
+		align-items: center;
 
-    svg {
-      height: 2.4rem;
-      width: 2.4rem;
-      fill: $color-primary;
-      margin-right: 0.7rem;
-      transform: translateY(-1px);
-    }
+		svg {
+			height: 2.4rem;
+			width: 2.4rem;
+			fill: $color-primary;
+			margin-right: 0.7rem;
+			transform: translateY(-1px);
+		}
 
-    &:focus {
-      outline: none;
-    }
+		&:focus {
+			outline: none;
+		}
 
-    &:hover {
-      background-color: $color-grey-light-2;
-    }
-  }
+		&:hover {
+			background-color: $color-grey-light-2;
+		}
+	}
 }
 
 .bookmarks {
-  // padding: 1rem 0;
-  position: absolute;
-  // right: 0;
-  right: -2.5rem;
-  z-index: 10;
-  width: 40rem;
-  background-color: #fff;
-  box-shadow: 0 0.8rem 5rem 2rem rgba($color-grey-dark-1, 0.1);
+	// padding: 1rem 0;
+	position: absolute;
+	// right: 0;
+	right: -2.5rem;
+	z-index: 10;
+	width: 40rem;
+	background-color: #fff;
+	box-shadow: 0 0.8rem 5rem 2rem rgba($color-grey-dark-1, 0.1);
 
-  visibility: hidden;
-  opacity: 0;
-  transition: all 0.5s 0.2s;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.5s 0.2s;
 
-  &__list {
-    list-style: none;
-  }
+	&__list {
+		list-style: none;
+	}
 
-  &__field {
-    cursor: pointer;
-    padding: 0 4rem;
+	&__field {
+		cursor: pointer;
+		padding: 0 4rem;
 
-    display: flex;
-    align-items: center;
-    height: 100%;
-    transition: all 0.3s;
+		display: flex;
+		align-items: center;
+		height: 100%;
+		transition: all 0.3s;
 
-    &:hover {
-      background-color: $color-grey-light-2;
-    }
-  }
+		&:hover {
+			background-color: $color-grey-light-2;
+		}
+	}
 
-  &:hover,
-  .nav__btn--bookmarks:hover + & {
-    visibility: visible;
-    opacity: 1;
-  }
+	&:hover,
+	.nav__btn--bookmarks:hover + & {
+		visibility: visible;
+		opacity: 1;
+	}
 }
