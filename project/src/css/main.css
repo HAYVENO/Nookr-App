@@ -733,7 +733,7 @@ body {
   margin-right: 1.15rem;
 }
 .recipe__info-data {
-  margin-right: 0.5rem;
+  min-width: 1.8rem;
   font-weight: 700;
 }
 .recipe__info-buttons {
