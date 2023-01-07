@@ -736,6 +736,9 @@ body {
   min-width: 1.8rem;
   font-weight: 700;
 }
+.recipe__info-text {
+  min-width: 5.6rem;
+}
 .recipe__info-buttons {
   display: -webkit-box;
   display: -ms-flexbox;

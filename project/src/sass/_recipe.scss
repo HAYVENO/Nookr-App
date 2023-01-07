@@ -105,6 +105,10 @@
 		font-weight: 700;
 	}
 
+	&__info-text {
+		min-width: 5.6rem;
+	}
+
 	&__info-buttons {
 		display: flex;
 		gap: 2rem;
