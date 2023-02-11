@@ -59,7 +59,7 @@ body {
 
 .btn--small, .btn--small:link, .btn--small:visited, .btn {
   background-color: #326273;
-  border-radius: 1rem 1rem 1rem 0rem;
+  border-radius: 0rem 1rem 1rem 0rem;
   border: none;
   text-transform: uppercase;
   color: #fff;
@@ -340,6 +340,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   border-bottom: solid rgba(0, 0, 0, 0.05);
+  background-image: linear-gradient(132deg, rgba(24, 107, 121, 0.0705882353), transparent 120%);
 }
 .header__logo {
   height: 12rem;
@@ -362,14 +363,13 @@ body {
   padding-left: 3rem;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 82, 0.15);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 82, 0.15);
+  border: 0.1px solid rgba(0, 0, 0, 0.2784313725);
 }
 .search:focus-within {
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
-  -webkit-box-shadow: 0 5px 9px 0 rgba(0, 0, 82, 0.1);
-          box-shadow: 0 5px 9px 0 rgba(0, 0, 82, 0.1);
+  -webkit-box-shadow: 6px 8px 0px rgba(0, 0, 82, 0.1019607843);
+          box-shadow: 6px 8px 0px rgba(0, 0, 82, 0.1019607843);
 }
 .search__field {
   border: none;
