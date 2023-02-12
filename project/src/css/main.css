@@ -36,14 +36,15 @@ body {
 }
 
 .container {
+  border: 0.1px solid rgba(0, 0, 0, 0.2);
   max-width: 125rem;
   min-height: 117rem;
   margin: 5rem auto;
   background-color: #fff;
   border-radius: 2px;
   overflow: hidden;
-  -webkit-box-shadow: 11px 15px 2px rgba(145, 133, 129, 0.5);
-          box-shadow: 11px 15px 2px rgba(145, 133, 129, 0.5);
+  -webkit-box-shadow: 10px 10px rgba(0, 0, 82, 0.1019607843);
+          box-shadow: 10px 10px rgba(0, 0, 82, 0.1019607843);
   display: grid;
   grid-template-rows: 10rem minmax(100rem, auto);
   grid-template-columns: 1fr 3fr;

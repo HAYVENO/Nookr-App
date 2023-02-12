@@ -61,14 +61,15 @@ body {
 }
 
 .container {
-	// border: 2px solid rgba(0, 0, 0, 0.08);
+	border: 0.1px solid rgba(0, 0, 0, 0.2);
 	max-width: 125rem;
 	min-height: 117rem;
 	margin: 5rem auto;
 	background-color: #fff;
 	border-radius: 2px;
 	overflow: hidden;
-	box-shadow: 11px 15px 2px transparentize($color-grey-dark-2, 0.5);
+	// box-shadow: 11px 15px 2px transparentize($color-grey-dark-2, 0.5);
+	box-shadow: 10px 10px #0000521a;
 
 	display: grid;
 	grid-template-rows: 10rem minmax(100rem, auto);
