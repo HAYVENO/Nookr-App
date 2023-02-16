@@ -27,9 +27,10 @@ export default class View {
 		}
 		const recipeImage = document.querySelector(".recipe__img");
 		// console.log(recipeImage);
-		recipeImage.onerror = function () {
-			recipeImage.style.display = "none";
-		};
+		recipeImage &&
+			(recipeImage.onerror = function () {
+				recipeImage.style.display = "none";
+			});
 	}
 
 	_clear() {
