@@ -20,7 +20,8 @@ With Nookr App, I aimed to showcase my skills in several areas, including:
 Overall, I believe that this project demonstrates my ability to build a robust and maintainable web application using modern web development tools and techniques.
 
 
-##Cloning or Forking the App
+## Cloning or Forking the App
+
 As a fellow **developer,** if you want to use Nookr as a starting point for your own project, you can clone or fork the app from the GitHub repository. To clone the app and access it from your machine, run the following command in your terminal:
 
 ```
