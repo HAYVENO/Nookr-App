@@ -56,5 +56,5 @@ Go from **Noob-cook** to **King-Chef** in minutes with **Nookr - your personal k
 
 > DISCLAIMER: Nookr is NOT a commercial app, it is a study project.
 
-OK, that was a bit extensive in the marketing side of things xD. If you enjoyed the READ ME, please don't hesitate to star 🌟 the repo. Thanks!
+OK, that was a bit extensive on the _marketing_ side of things xD. If you enjoyed the READ ME, please don't hesitate to star 🌟 the repo. Thanks!
 
