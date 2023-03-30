@@ -7,7 +7,28 @@ Let Nookr take the guesswork out of cooking.
 
 Nookr is a simple and easy-to-use app that allows you to search for ingredients and cooking instructions for meals. It doesn't matter what part of the world you are from, Nookr's catalogue of 500k+ recipes sure has something for you.
 
-> Find your next favorite meal with Nookr!
+## Skills showcased in this app
+
+With Nookr App, I aimed to showcase my skills in several areas, including:
+
+- **MVC architecture:** The app is structured using the Model-View-Controller (MVC) architecture, with clear separation between data, presentation, and user input. This helps to ensure a clean and maintainable codebase.
+
+- **Vanilla JavaScript:** The app is built entirely with vanilla JavaScript, without the use of any external frameworks or libraries. This demonstrates my ability to work with the core features of the language and write efficient code.
+
+- **Styling with Sass/Scss:** The app's styling is done using Sass/Scss, a powerful and popular CSS preprocessor. This allowed me to write modular and reusable styles, making the styling code more maintainable and easier to update — easier to read too 🤷🏾‍♂️.
+
+Overall, I believe that this project demonstrates my ability to build a robust and maintainable web application using modern web development tools and techniques.
+
+
+##Cloning or Forking the App
+As a fellow **developer,** if you want to use Nookr as a starting point for your own project, you can clone or fork the app from the GitHub repository. To clone the app and access it from your machine, run the following command in your terminal:
+
+```
+git clone https://github.com/HAYVENO/Nookr-App.git
+cd Nookr-App
+npm install
+```
+Now let's discuss Nookr.
 
 ## How does Nookr work?
 
@@ -34,3 +55,6 @@ Plus, with Nookr's **Search by dish name** feature and the ability to **save you
 Go from **Noob-cook** to **King-Chef** in minutes with **Nookr - your personal kitchen companion.**
 
 > DISCLAIMER: Nookr is NOT a commercial app, it is a study project.
+
+OK, that was a bit extensive in the marketing side of things xD. If you enjoyed the READ ME, please don't hesitate to star 🌟 the repo. Thanks!
+
