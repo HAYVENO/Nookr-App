@@ -27,9 +27,9 @@ Overall, I believe that this project demonstrates my ability to build a robust a
 As a fellow **developer,** if you want to use Nookr as a starting point for your own project, you can clone or fork the app from the GitHub repository. To clone the app and access it from your machine, run the following command in your terminal:
 
 ```
-git clone https://github.com/HAYVENO/Nookr-App.git
-cd Nookr-App
-npm install
+$ git clone https://github.com/HAYVENO/Nookr-App.git
+$ cd Nookr-App
+$ npm install
 ```
 Now let's discuss Nookr.
 
