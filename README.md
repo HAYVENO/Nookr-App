@@ -13,6 +13,8 @@ With Nookr App, I aimed to showcase my skills in several areas, including:
 
 - **MVC architecture:** The app is structured using the Model-View-Controller (MVC) architecture, with clear separation between data, presentation, and user input. This helps to ensure a clean and maintainable codebase.
 
+- **Object-Oriented Programming:** The app makes use of object-oriented programming principles, specifically the concept of classes, to create modular and maintainable code in the **View**. The Classes provided a blueprint for creating objects with similar properties and behaviors, and enable encapsulation, inheritance, and polymorphism.
+
 - **Vanilla JavaScript:** The app is built entirely with vanilla JavaScript, without the use of any external frameworks or libraries. This demonstrates my ability to work with the core features of the language and write efficient code.
 
 - **Styling with Sass/Scss:** The app's styling is done using Sass/Scss, a powerful and popular CSS preprocessor. This allowed me to write modular and reusable styles, making the styling code more maintainable and easier to update — easier to read too 🤷🏾‍♂️.
