@@ -5,7 +5,7 @@ Let Nookr take the guesswork out of cooking.
 
 ## What is Nookr?
 
-Nookr is a simple and easy-to-use app that allows you to search for ingredients and cooking instructions for meals. It doesn't matter what part of the world you are from, Nookr's catalogue of 500k+ recipes sure has something for you.
+Nookr is a simple and easy-to-use recipe app that allows you to search for ingredients and cooking instructions for meals. It doesn't matter what part of the world you are from, Nookr's catalogue of 500k+ recipes sure has something for you.
 
 ## Skills showcased in this app
 
