@@ -11,13 +11,13 @@ Nookr is a simple and easy-to-use app that allows you to search for ingredients 
 
 With Nookr App, I aimed to showcase my skills in several areas, including:
 
-- **MVC architecture:** The app is structured using the Model-View-Controller (MVC) architecture, with clear separation between data, presentation, and user input. This helps to ensure a clean and maintainable codebase.
+- **MVC architecture:** I structured the app using the Model-View-Controller (MVC) architecture, with clear separation between data, presentation, and user input. This helps to ensure a clean and maintainable codebase.
 
-- **Object-Oriented Programming:** The app makes use of object-oriented programming principles, specifically the concept of classes, to create modular and maintainable code in the **View**. The Classes provided a blueprint for creating objects with similar properties and behaviors, and enable encapsulation, inheritance, and polymorphism.
+- **Object-Oriented Programming:** I made use of object-oriented programming principles, specifically the concept of classes, to create modular and maintainable code in the **View**. The Classes provided a blueprint for creating objects with similar properties and behaviors, and enable encapsulation, inheritance, and polymorphism.
 
 - **Vanilla JavaScript:** The app is built entirely with vanilla JavaScript, without the use of any external frameworks or libraries. This demonstrates my ability to work with the core features of the language and write efficient code.
 
-- **Styling with Sass/Scss:** The app's styling is done using Sass/Scss, a powerful and popular CSS preprocessor. This allowed me to write modular and reusable styles, making the styling code more maintainable and easier to update — easier to read too 🤷🏾‍♂️.
+- **Styling with Sass/Scss:** Styled the app using Sass/Scss — the CSS preprocessor that served as syntactic sugar. This allowed me to write modular and reusable styles, making the styling code more maintainable and easier to update — easier to read too 🤷🏾‍♂️.
 
 Overall, I believe that this project demonstrates my ability to build a robust and maintainable web application using modern web development tools and techniques.
 
@@ -55,9 +55,7 @@ Plus, with Nookr's **Search by dish name** feature and the ability to **save you
 -  Easy navigation and user-friendly design
 -  Available on **Desktop and Tablets**
 
-Go from **Noob-cook** to **King-Chef** in minutes with **Nookr - your personal kitchen companion.**
+Go from **Noob-cook** to **King-Chef** in minutes with **Nookr - your personal kitchen companion. 😉**
 
-> DISCLAIMER: Nookr is NOT a commercial app, it is a study project.
-
-OK, that was a bit extensive on the _marketing_ side of things xD. Nonetheless, if you enjoyed the READ ME, please don't hesitate to star 🌟 the repo. Thanks!
+OK, don't mind my mid attempt at marketing. But if you find the work I did with the app beautiful, or you just as much as enjoyed the READ ME, please don't hesitate to star 🌟 the repo. Thanks!
 
