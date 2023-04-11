@@ -19,7 +19,9 @@ With Nookr App, I aimed to showcase my skills in several areas, including:
 
 - **Styling with Sass/Scss:** Styled the app using Sass/Scss — the CSS preprocessor that served as syntactic sugar. This allowed me to write modular and reusable styles, making the styling code more maintainable and easier to update — easier to read too 🤷🏾‍♂️.
 
-Overall, I believe that this project demonstrates my ability to build a robust and maintainable web application using modern web development tools and techniques.
+**User Interface Design:** The Nookr App is also intended to showcase an eye for creating simple, yet visually appealing user interfaces that prioritize usability and accessibility. I drew from various design trends and elements across different apps and platforms, resulting in a unique and modern look and feel for the app.
+
+Overall, I believe that this project demonstrates my ability to build a robust and maintainable web application using modern web development tools and techniques. Credit to Jonas Schmedtmann for his incredible course and API.
 
 
 ## Cloning or Forking the App
@@ -27,9 +29,18 @@ Overall, I believe that this project demonstrates my ability to build a robust a
 As a fellow **developer,** if you want to use Nookr as a starting point for your own project, you can clone or fork the app from the GitHub repository. To clone the app and access it from your machine, run the following command in your terminal:
 
 ``` bash
+# Clone the Nookr-App repository from GitHub
 $ git clone https://github.com/HAYVENO/Nookr-App.git
+
+# Change directory to the Nookr-App folder
 $ cd Nookr-App
+
+# Install all the necessary dependencies for the project using npm
 $ npm install
+
+# Start the development server to run the Nookr-App locally on your machine
+$ npm start
+
 ```
 Now let's discuss Nookr.
 
