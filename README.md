@@ -7,6 +7,16 @@ Let Nookr take the guesswork out of cooking.
 
 Nookr is a simple and easy-to-use recipe app that allows you to search for ingredients and cooking instructions for meals. It doesn't matter what part of the world you are from, Nookr's catalogue of 500k+ recipes sure has something for you.
 
+
+| Feature                                               | Description                                                                  |
+|-------------------------------------------------------|------------------------------------------------------------------------------|
+| Search for recipes by dish name                       | Users can search for recipes based on the name of the dish they want to make. |
+| Detailed ingredient and instruction  | Each recipe includes a list of ingredients and step-by-step instructions.    |
+| Save your favorite recipes  | Users can save their favorite recipes to a separate list for easy access. |
+| Easy navigation and user-friendly design              | The website has a user-friendly design that allows for easy navigation.      |
+| use across board                      | The website is accessible on both desktop and tablet devices.                |
+
+
 ## Skills showcased in this app
 
 With Nookr App, I aimed to showcase my skills in several areas, including:
@@ -57,14 +67,6 @@ You can also **save your favorite dishes** to a favorites list for easy access l
 Nookr is designed to be user-friendly and easy to navigate. Whether you're in the kitchen or on the go, Nookr is a great resource for finding ingredients and cooking instructions for any meal.
 
 Plus, with Nookr's **Search by dish name** feature and the ability to **save your favorite dishes**, you can quickly and easily access the recipes that you love.
-
-| Feature                                               | Description                                                                  |
-|-------------------------------------------------------|------------------------------------------------------------------------------|
-| Search for recipes by dish name                       | Users can search for recipes based on the name of the dish they want to make. |
-| Detailed ingredient and instruction  | Each recipe includes a list of ingredients and step-by-step instructions.    |
-| Save your favorite recipes  | Users can save their favorite recipes to a separate list for easy access. |
-| Easy navigation and user-friendly design              | The website has a user-friendly design that allows for easy navigation.      |
-| use across board                      | The website is accessible on both desktop and tablet devices.                |
 
 Go from **Noob-cook** to **King-Chef** in minutes with **Nookr - your personal kitchen companion. 😉**
 
