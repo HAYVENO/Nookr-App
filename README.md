@@ -58,13 +58,13 @@ Nookr is designed to be user-friendly and easy to navigate. Whether you're in th
 
 Plus, with Nookr's **Search by dish name** feature and the ability to **save your favorite dishes**, you can quickly and easily access the recipes that you love.
 
-## Features -
-
--  Search for recipes by dish name
--  Detailed ingredient and instruction lists for each recipe
--  Save your favorite recipes to a favorites list for easy access
--  Easy navigation and user-friendly design
--  Available on **Desktop and Tablets**
+| Feature                                               | Description                                                                  |
+|-------------------------------------------------------|------------------------------------------------------------------------------|
+| Search for recipes by dish name                       | Users can search for recipes based on the name of the dish they want to make. |
+| Detailed ingredient and instruction  | Each recipe includes a list of ingredients and step-by-step instructions.    |
+| Save your favorite recipes  | Users can save their favorite recipes to a separate list for easy access. |
+| Easy navigation and user-friendly design              | The website has a user-friendly design that allows for easy navigation.      |
+| use across board                      | The website is accessible on both desktop and tablet devices.                |
 
 Go from **Noob-cook** to **King-Chef** in minutes with **Nookr - your personal kitchen companion. 😉**
 
