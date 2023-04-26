@@ -1,11 +1,15 @@
 # Nookr-App
 
 ![Nookr view](https://res.cloudinary.com/detye5zx5/image/upload/v1671020361/Nookr-view-optimized_x6fmje.webp)
-Let Nookr take the guesswork out of cooking.
 
-## What is Nookr?
+[![Website qeep.vercel.app](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://nookr.vercel.app/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/hayveno/Nookr-App/graphs/commit-activity) 
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/hayveno/Nookr-app/issues/new)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)]([https://github.com/hayveno/Nookr-app/issues/](https://github.com/HAYVENO/Qeepp-App/issues))
 
-Nookr is a simple and easy-to-use recipe app that allows you to search for ingredients and cooking instructions for meals. It doesn't matter what part of the world you are from, Nookr's catalogue of 500k+ recipes sure has something for you.
+
+<a href="https://nookr.vercel.app/" target="_blank" >Nookr</a> is a simple and easy-to-use recipe app that allows you to search for ingredients and cooking instructions for meals. It doesn't matter what part of the world you are from, Nookr's catalogue of 500k+ recipes sure has something for you.
 
 
 | Feature                                               | Description                                                                  |
@@ -72,3 +76,5 @@ Go from **Noob-cook** to **King-Chef** in minutes with **Nookr - your personal k
 
 OK, don't mind my mid attempt at marketing. But if you find the work I did with the app beautiful, or you just as much as enjoyed the READ ME, please don't hesitate to star 🌟 the repo. Thanks!
 
+[![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/hayveno/Nookr-app/issues/new)
