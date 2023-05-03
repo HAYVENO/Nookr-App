@@ -11,6 +11,14 @@
 
 <a href="https://nookr.vercel.app/" target="_blank" >Nookr</a> is a simple and easy-to-use recipe app that allows you to search for ingredients and cooking instructions for meals. It doesn't matter what part of the world you are from, Nookr's catalogue of 500k+ recipes sure has something for you.
 
+## How does Nookr work?
+
+To begin, simply type in the name of the dish that you want to cook, and Nookr will provide you with a list of ingredients and detailed instructions on how to prepare the meal. Nookr currently only allows you to search for recipes by dish name. You can also **save your favorite dishes** to a favorites list for easy access later.
+
+
+https://user-images.githubusercontent.com/98966361/235914712-d43b92b2-074d-4c02-b044-54b27d86703a.mov
+
+
 
 | Feature                                               | Description                                                                  |
 |-------------------------------------------------------|------------------------------------------------------------------------------|
@@ -18,7 +26,7 @@
 | Detailed ingredient and instruction  | Each recipe includes a list of ingredients and step-by-step instructions.    |
 | Save your favorite recipes  | Users can save their favorite recipes to a separate list for easy access. |
 | Easy navigation and user-friendly design              | The website has a user-friendly design that allows for easy navigation.      |
-| use across board                      | The website is accessible on both desktop and tablet devices.                |
+| Compatibility                      | The website is accessible on both desktop and tablet devices.                |
 
 
 ## Skills showcased in this app
@@ -33,7 +41,7 @@ With Nookr App, I aimed to showcase my skills in several areas, including:
 
 - **Styling with Sass/Scss:** Styled the app using Sass/Scss — the CSS preprocessor that served as syntactic sugar. This allowed me to write modular and reusable styles, making the styling code more maintainable and easier to update — easier to read too 🤷🏾‍♂️.
 
-**User Interface Design:** The Nookr App is also intended to showcase an eye for creating simple, yet visually appealing user interfaces that prioritize usability and accessibility. I drew from various design trends and elements across different apps and platforms, resulting in a unique and modern look and feel for the app.
+- **User Interface Design:** The Nookr App is also intended to showcase an eye for creating simple, yet visually appealing user interfaces that prioritize usability and accessibility. I drew from various design trends and elements across different apps and platforms, resulting in a unique and modern look and feel for the app.
 
 Overall, I believe that this project demonstrates my ability to build a robust and maintainable web application using modern web development tools and techniques. Credit to Jonas Schmedtmann for his incredible course and API.
 
@@ -56,15 +64,6 @@ $ npm install
 $ npm start
 
 ```
-Now let's discuss Nookr.
-
-## How does Nookr work?
-
-To begin, simply type in the name of the dish that you want to cook, and Nookr will provide you with a list of ingredients and detailed instructions on how to prepare the meal. Nookr currently only allows you to search for recipes by dish name.
-
-> Nookr: Your push to delicious meals every day!
-
-You can also **save your favorite dishes** to a favorites list for easy access later.
 
 ## Why use Nookr?
 
